@@ -1,13 +1,13 @@
 {
   "name": "@tysonmn/coding-blog-plugin",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "A CODEDOC plugin for blogging.",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
   "types": "dist/es6/index.d.ts",
   "sdhTransport": "module",
   "publishConfig": {
-    "registry": "https://packageregistory.pkg.github.com/tysonmn/coding-blog-plugin/imagename"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
