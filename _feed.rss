@@ -4,7 +4,7 @@
         <title>Coding Blog Plugin</title>
         <link>https://connect-platform.github.io/coding-blog-plugin</link>
         <description></description>
-        <lastBuildDate>Tue, 15 Sep 2020 15:00:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2020 15:04:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://connect-platform.github.io/_feed.rss" rel="self" type="application/rss+xml"/>
