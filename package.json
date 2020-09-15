@@ -7,7 +7,7 @@
   "types": "dist/es6/index.d.ts",
   "sdhTransport": "module",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://packageregistory.pkg.github.com/tysonmn/coding-blog-plugin/imagename"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
