@@ -1,6 +1,6 @@
 {
   "name": "@tysonmn/coding-blog-plugin",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "A CODEDOC plugin for blogging.",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
