@@ -1,11 +1,14 @@
 {
-  "name": "@codedoc/coding-blog-plugin",
+  "name": "@tysonmn/coding-blog-plugin",
   "version": "0.1.11",
   "description": "A CODEDOC plugin for blogging.",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
   "types": "dist/es6/index.d.ts",
   "sdhTransport": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-es5": "tsc -p conf/typescript/es5.json",
@@ -19,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CONNECT-platform/coding-blog-plugin.git"
+    "url": "git+https://github.com/tysonmn/coding-blog-plugin.git"
   },
   "keywords": [
     "doc",
