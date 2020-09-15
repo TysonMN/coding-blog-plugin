@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://connect-platform.github.io/coding-blog-plugin</id>
     <title>Coding Blog Plugin</title>
-    <updated>2020-09-15T14:40:44.863Z</updated>
+    <updated>2020-09-15T14:58:43.155Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://connect-platform.github.io/coding-blog-plugin"/>
     <link rel="self" href="https://connect-platform.github.io/_feed.atom"/>
@@ -22,11 +22,13 @@ you might want to highlight your latest blog posts on your blog's first page. ..
         <published>2020-09-15T14:38:56.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Coding Blog Plugin | Author Information]]></title>
-        <id>https://connect-platform.github.io/coding-blog-plugin/author</id>
-        <link href="https://connect-platform.github.io/coding-blog-plugin/author"/>
+        <title type="html"><![CDATA[Coding Blog Plugin | Assets]]></title>
+        <id>https://connect-platform.github.io/coding-blog-plugin/assets</id>
+        <link href="https://connect-platform.github.io/coding-blog-plugin/assets"/>
         <updated>2020-09-15T14:38:56.000Z</updated>
-        <content type="html"><![CDATA[You can easily provide author and publishing (latest publish date) information using Author markdown component: ...]]></content>
+        <content type="html"><![CDATA[If you want to host your own static assets (images, stylesheets, scripts, etc) and 
+reference them in your blog posts, you need to tell coding.blog's build pipeline
+to pull them from your repo and put them alongside the rest of your content on the CDNs. ...]]></content>
         <author>
             <name>Tyson Williams</name>
             <email>tyson.williams@blocherconsulting.com</email>
@@ -35,13 +37,11 @@ you might want to highlight your latest blog posts on your blog's first page. ..
         <published>2020-09-15T14:38:56.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Coding Blog Plugin | Assets]]></title>
-        <id>https://connect-platform.github.io/coding-blog-plugin/assets</id>
-        <link href="https://connect-platform.github.io/coding-blog-plugin/assets"/>
+        <title type="html"><![CDATA[Coding Blog Plugin | Author Information]]></title>
+        <id>https://connect-platform.github.io/coding-blog-plugin/author</id>
+        <link href="https://connect-platform.github.io/coding-blog-plugin/author"/>
         <updated>2020-09-15T14:38:56.000Z</updated>
-        <content type="html"><![CDATA[If you want to host your own static assets (images, stylesheets, scripts, etc) and 
-reference them in your blog posts, you need to tell coding.blog's build pipeline
-to pull them from your repo and put them alongside the rest of your content on the CDNs. ...]]></content>
+        <content type="html"><![CDATA[You can easily provide author and publishing (latest publish date) information using Author markdown component: ...]]></content>
         <author>
             <name>Tyson Williams</name>
             <email>tyson.williams@blocherconsulting.com</email>
@@ -77,6 +77,22 @@ them to your posts using Hero markdown component: ...]]></content>
         <published>2020-09-15T14:38:56.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Coding Blog Plugin]]></title>
+        <id>https://connect-platform.github.io/coding-blog-plugin/moved-sample</id>
+        <link href="https://connect-platform.github.io/coding-blog-plugin/moved-sample"/>
+        <updated>2020-09-15T14:38:56.000Z</updated>
+        <content type="html"><![CDATA[This page has moved and is supposed to not be here! You are not even supposed to be able to read this!
+So you should be redirected to an actual page of these documents now. If you are not, and you can clearly
+read this text without any obstruction, then something has went terribly wrong, and it would be exceedingly
+nice of you to contact the developer maintaining this project of the situation (via GitHub, for example). ...]]></content>
+        <author>
+            <name>Tyson Williams</name>
+            <email>tyson.williams@blocherconsulting.com</email>
+            <uri/>
+        </author>
+        <published>2020-09-15T14:38:56.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Coding Blog Plugin | RSS]]></title>
         <id>https://connect-platform.github.io/coding-blog-plugin/rss</id>
         <link href="https://connect-platform.github.io/coding-blog-plugin/rss"/>
@@ -95,22 +111,6 @@ them to your posts using Hero markdown component: ...]]></content>
         <link href="https://connect-platform.github.io/coding-blog-plugin/tags"/>
         <updated>2020-09-15T14:38:56.000Z</updated>
         <content type="html"><![CDATA[You can add tags to any part of your blog-post, using the inline Tag component: ...]]></content>
-        <author>
-            <name>Tyson Williams</name>
-            <email>tyson.williams@blocherconsulting.com</email>
-            <uri/>
-        </author>
-        <published>2020-09-15T14:38:56.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coding Blog Plugin]]></title>
-        <id>https://connect-platform.github.io/coding-blog-plugin/moved-sample</id>
-        <link href="https://connect-platform.github.io/coding-blog-plugin/moved-sample"/>
-        <updated>2020-09-15T14:38:56.000Z</updated>
-        <content type="html"><![CDATA[This page has moved and is supposed to not be here! You are not even supposed to be able to read this!
-So you should be redirected to an actual page of these documents now. If you are not, and you can clearly
-read this text without any obstruction, then something has went terribly wrong, and it would be exceedingly
-nice of you to contact the developer maintaining this project of the situation (via GitHub, for example). ...]]></content>
         <author>
             <name>Tyson Williams</name>
             <email>tyson.williams@blocherconsulting.com</email>
